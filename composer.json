@@ -1,0 +1,29 @@
+{
+	"name": "exercisebook/discuzq-imagex",
+	"description": "ImageX Adapter for DiscuzQ",
+	"type": "library",
+	"authors": [
+		{
+			"name": "Eric_Lian",
+			"email": "public@superexercisebook.com"
+		}
+	],
+	"require": {
+        "exercisebook/flysystem-imagex" : "<1.0.0",
+		"discuz/core": ">=v2.0.201001"
+	},
+	"license": "MIT",
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://cloud.discuz.chat"
+		}
+	],
+	"version": "0.1.0",
+	"minimum-stability": "alpha",
+	"autoload": {
+		"psr-4": {
+			"ExerciseBook\\DiscuzQCloudinary\\": "src/"
+		}
+	}
+}
